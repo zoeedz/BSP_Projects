@@ -13,7 +13,7 @@ l,["<link href='https://fonts.googleapis.com/css?family=Bebas+Neue&subset=latin'
 		if(loadingDiv == null) {	
 			loadingDiv = document.createElement("div");
 			loadingDiv.id = loadingPageID;
-#5d563e;background-color:#5d563e;border-radius:10px;text-align:center;font-family:Helvetica,Sans-Serif;font-size:13px;font-weight:700;color:#fff;z-index:100000;";
+			loadingDiv.style.cssText = "overflow:hidden;position:absolute;width:150px;top:40%;left:0;right:0;margin:auto;padding:2px;border:3px solid #5d563e;background-color:#5d563e;border-radius:10px;text-align:center;font-family:Helvetica,Sans-Serif;font-size:13px;font-weight:700;color:#ffffff;z-index:100000;";
 			loadingDiv.innerHTML = "Loading";
 			mainContentContainer.appendChild(loadingDiv);
 		}
